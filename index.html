@@ -3,130 +3,295 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="R&amp;B Store Universo: tienda virtual de variedades.">
-<title>R&B Store Universo</title>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta name="description" content="R&amp;B Store Universo: tienda familiar de variedades en Medellín. Hogar, tecnología, juguetes, electrodomésticos y temporadas. Pedidos por WhatsApp.">
+<title>R&amp;B Store Universo — variedades en Medellín</title>
+<link rel="icon" href="Img/favicon.png" type="image/png">
+<meta property="og:title" content="R&amp;B Store Universo">
+<meta property="og:description" content="Tienda familiar de variedades en Medellín. Seis categorías, un solo WhatsApp.">
+<meta property="og:image" content="Img/banner-rb-store.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="Css/estilos.css">
+<script>document.documentElement.classList.add("js");setTimeout(function(){if(!document.documentElement.classList.contains("js-ready")){document.documentElement.classList.remove("js")}},2500)</script>
 <script src="Js/script.js" defer></script>
 </head>
-<body class="home-page">
+<body>
 
-<div class="top-row">
-  <a class="top-logo" href="index.html"><img src="Img/logo.png" alt="R&B Store Universo"></a>
-  <a class="top-banner" href="#categorias" aria-label="Explorar las categorías de R&B Store Universo"><img src="Img/banner-rb-store.jpg" alt="R&B Store Universo: un universo de variedades para ti"></a>
-</div>
-<header class="site-header">
-  <a class="brand" href="index.html"><img src="Img/logo.png" alt="R&B Store Universo"></a>
-  <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
-  <nav class="main-nav"><a class="active" href="index.html">Inicio</a><a href="#nosotros">Nosotros</a><a href="#categorias">Categorías</a><a href="#destacados">Destacados</a><a href="#contacto">Contacto</a></nav>
-  <a class="header-cta" href="#categorias">Explorar tienda</a>
+<header class="bar">
+  <a class="bar-brand" href="index.html">R&amp;B Store Universo</a>
+  <nav class="bar-nav">
+    <a href="#categorias">Categorías</a>
+    <a href="#catalogo">Catálogo</a>
+    <a href="#nosotros">Nosotros</a>
+  </nav>
+  <a class="bar-action" href="https://wa.me/573126238264" data-whatsapp>WhatsApp</a>
 </header>
+
 <main>
-  <section class="section" id="categorias">
-    <div class="section-heading">
-      <span class="eyebrow">ENCUENTRA LO QUE NECESITAS</span>
-      <h2>Nuestras <em>categorías</em></h2>
-      <p>Explora nuestra variedad de productos.</p>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-top">
+      <div class="hero-lead reveal" style="--i:0">
+        <h1 id="hero-title">R&amp;B Store<br>Universo</h1>
+        <p class="hero-line reveal" style="--i:1">Tienda familiar de variedades en Medellín, con seis categorías y un solo WhatsApp.</p>
+      </div>
+      <a class="btn btn-solid reveal" style="--i:2" href="https://wa.me/573126238264" data-whatsapp>Escribir por WhatsApp</a>
     </div>
-    <div class="category-grid">
-      <a class="category-card" href="Paginas/Hogar/index.html">
-        <span class="category-icon">⌂</span>
-        <h3>Hogar</h3>
-        <span>Ver categoría →</span>
+
+    <div class="strip-wrap reveal" style="--i:3">
+      <div class="strip" data-strip>
+        <figure data-name="Juego de cama estampado · Hogar">
+          <a href="Paginas/Hogar/index.html"><img src="Paginas/Hogar/img/producto-16.jpg" alt="Cama tendida con cobija de mariposas y fundas a juego."></a>
+        </figure>
+        <figure data-name="Máquina de palomitas · Hogar">
+          <a href="Paginas/Hogar/index.html"><img src="Paginas/Hogar/img/producto-11.jpg" alt="Máquina de palomitas roja con crispetas recién hechas."></a>
+        </figure>
+        <figure data-name="Lámpara con cargador · Tecnología">
+          <a href="Paginas/Tecnologia/index.html"><img src="Paginas/Tecnologia/img/producto-04.jpg" alt="Lámpara de escritorio con base de carga para celular."></a>
+        </figure>
+        <figure data-name="Neceser rosa · Juguetes">
+          <a href="Paginas/Juguetes/index.html"><img src="Paginas/Juguetes/img/producto-08.jpg" alt="Neceser rosado con moño sobre una mesa." loading="lazy"></a>
+        </figure>
+        <figure data-name="Cobija con Santa · Temporadas">
+          <a href="Paginas/Temporadas/index.html"><img src="Paginas/Temporadas/img/producto-14.jpg" alt="Cobija navideña con Papá Noel sobre una cama." loading="lazy"></a>
+        </figure>
+        <figure data-name="Batidora de mano · Electrodomésticos">
+          <a href="Paginas/Electrodomesticos/index.html"><img src="Paginas/Electrodomesticos/img/producto-10.jpg" alt="Batidora de mano naranja con base de apoyo." loading="lazy"></a>
+        </figure>
+        <figure data-name="Set de 12 ollas y sartenes · Hogar">
+          <a href="Paginas/Hogar/index.html"><img src="Paginas/Hogar/img/producto-02.jpg" alt="Doce ollas, sartenes y utensilios antiadherentes ordenados sobre una mesa." loading="lazy"></a>
+        </figure>
+        <figure data-name="Peluche naranja · Juguetes">
+          <a href="Paginas/Juguetes/index.html"><img src="Paginas/Juguetes/img/producto-16.jpg" alt="Peluche naranja de cara redonda sobre fondo lila." loading="lazy"></a>
+        </figure>
+        <figure data-name="Trípode para cámara · Tecnología">
+          <a href="Paginas/Tecnologia/index.html"><img src="Paginas/Tecnologia/img/producto-05.jpg" alt="Trípode negro de tres secciones con cabezal ajustable." loading="lazy"></a>
+        </figure>
+        <figure data-name="Máquina de mini waffles · Electrodomésticos">
+          <a href="Paginas/Electrodomesticos/index.html"><img src="Paginas/Electrodomesticos/img/producto-14.jpg" alt="Máquina de mini waffles negra con plato servido." loading="lazy"></a>
+        </figure>
+        <figure data-name="Camino de mesa · Temporadas">
+          <a href="Paginas/Temporadas/index.html"><img src="Paginas/Temporadas/img/producto-05.jpg" alt="Camino de mesa navideño sobre una mesa de madera." loading="lazy"></a>
+        </figure>
+        <figure data-name="Peluches de nutria · Juguetes">
+          <a href="Paginas/Juguetes/index.html"><img src="Paginas/Juguetes/img/producto-11.jpg" alt="Dos peluches de nutria abrazados sobre una cama." loading="lazy"></a>
+        </figure>
+        <figure data-name="Set de 3 recipientes · Hogar">
+          <a href="Paginas/Hogar/index.html"><img src="Paginas/Hogar/img/producto-10.jpg" alt="Tres recipientes herméticos apilados con frutas y granos." loading="lazy"></a>
+        </figure>
+      </div>
+      <p class="strip-caption" data-strip-caption>Desliza la tira para ver el catálogo.</p>
+    </div>
+
+    <div class="hero-bottom">
+      <p class="hero-hours"><b data-open>Abierto ahora</b> · Lunes a sábado, 9:00 a 17:00 · Medellín</p>
+      <a class="hero-more" href="#categorias">Ver las categorías →</a>
+    </div>
+  </section>
+
+  <section class="board-section" aria-labelledby="board-title">
+    <div class="board" data-board>
+      <div class="t t-fill t-head">
+        <h2 id="board-title">Seis mundos</h2>
+        <a href="#categorias">Ver las categorías →</a>
+      </div>
+      <div class="t"><div class="t-img" style="--c:1;--r:0"></div></div>
+      <div class="t"><div class="t-img" style="--c:2;--r:0"></div></div>
+      <div class="t"><div class="t-img" style="--c:3;--r:0"></div></div>
+      <div class="t"><div class="t-img" style="--c:4;--r:0"></div></div>
+      <div class="t t-fill t-fact bg-rose">6 categorías</div>
+
+      <div class="t"><div class="t-img" style="--c:0;--r:1"></div></div>
+      <div class="t"><div class="t-img" style="--c:1;--r:1"></div></div>
+      <div class="t"><div class="t-img" style="--c:2;--r:1"></div></div>
+      <div class="t"><div class="t-img" style="--c:3;--r:1"></div></div>
+      <div class="t"><div class="t-img" style="--c:4;--r:1"></div></div>
+      <div class="t"><div class="t-img" style="--c:5;--r:1"></div></div>
+
+      <div class="t"><div class="t-img" style="--c:0;--r:2"></div></div>
+      <div class="t"><div class="t-img" style="--c:1;--r:2"></div></div>
+      <div class="t"><div class="t-img" style="--c:2;--r:2"></div></div>
+      <div class="t"><div class="t-img" style="--c:3;--r:2"></div></div>
+      <div class="t"><div class="t-img" style="--c:4;--r:2"></div></div>
+      <div class="t"><div class="t-img" style="--c:5;--r:2"></div></div>
+
+      <div class="t t-fill t-fact bg-gold">117 productos</div>
+      <div class="t"><div class="t-img" style="--c:1;--r:3"></div></div>
+      <div class="t"><div class="t-img" style="--c:2;--r:3"></div></div>
+      <div class="t"><div class="t-img" style="--c:3;--r:3"></div></div>
+      <div class="t"><div class="t-img" style="--c:4;--r:3"></div></div>
+      <div class="t t-fill t-fact bg-lav">8 años</div>
+    </div>
+  </section>
+
+  <section class="cats" id="categorias" aria-labelledby="cats-title">
+    <div class="cats-head reveal" style="--i:0">
+      <h2 id="cats-title">Las seis categorías</h2>
+      <p>Todo lo que hay en la tienda, agrupado para que lo encuentres rápido. No hay carrito: eliges y nos escribes.</p>
+    </div>
+    <ul class="cat-list">
+      <li class="reveal" style="--i:0"><a class="cat-row" href="Paginas/Hogar/index.html">
+        <span class="dot" style="--c:var(--rose)"></span>
+        <span class="name">Hogar</span>
+        <span class="count">20 productos</span>
+        <span class="desc">Artículos prácticos y decorativos para tus espacios.</span>
+      </a></li>
+      <li class="reveal" style="--i:1"><a class="cat-row" href="Paginas/Tecnologia/index.html">
+        <span class="dot" style="--c:var(--gold)"></span>
+        <span class="name">Tecnología</span>
+        <span class="count">20 productos</span>
+        <span class="desc">Accesorios para el celular, el carro y el escritorio.</span>
+      </a></li>
+      <li class="reveal" style="--i:2"><a class="cat-row" href="Paginas/Juguetes/index.html">
+        <span class="dot" style="--c:var(--lavender)"></span>
+        <span class="name">Juguetes</span>
+        <span class="count">17 productos</span>
+        <span class="desc">Muñecas, peluches y sets para niños y coleccionistas.</span>
+      </a></li>
+      <li class="reveal" style="--i:3"><a class="cat-row" href="Paginas/Electrodomesticos/index.html">
+        <span class="dot" style="--c:var(--rose)"></span>
+        <span class="name">Electrodomésticos</span>
+        <span class="count">20 productos</span>
+        <span class="desc">Pequeños electrodomésticos para la cocina y el arreglo personal.</span>
+      </a></li>
+      <li class="reveal" style="--i:4"><a class="cat-row" href="Paginas/Temporadas/index.html">
+        <span class="dot" style="--c:var(--gold)"></span>
+        <span class="name">Temporadas</span>
+        <span class="count">20 productos</span>
+        <span class="desc">Navidad, fin de año y fechas especiales.</span>
+      </a></li>
+      <li class="reveal" style="--i:5"><a class="cat-row" href="Paginas/Adultos/index.html">
+        <span class="dot" style="--c:var(--purple)"></span>
+        <span class="name">Productos para adultos</span>
+        <span class="count">20 · +18</span>
+        <span class="desc">Bienestar íntimo. Sección reservada para mayores de edad.</span>
+      </a></li>
+    </ul>
+  </section>
+
+  <section class="row-section" id="catalogo" aria-labelledby="row-title">
+    <div class="row-head">
+      <div class="reveal" style="--i:0">
+        <h2 id="row-title">Lo que hay ahora</h2>
+        <p>Una muestra del catálogo. Los precios y la disponibilidad se confirman por WhatsApp antes de cualquier pago.</p>
+      </div>
+      <div class="row-buttons">
+        <button class="row-btn" type="button" data-row-prev aria-label="Ver productos anteriores">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+        <button class="row-btn" type="button" data-row-next aria-label="Ver más productos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="row-progress" aria-hidden="true"><span data-row-progress></span></div>
+    <div class="row-track" data-row-track>
+      <a class="moment reveal" style="--i:0;--space:0px" href="Paginas/Hogar/index.html">
+        <h3>Extractor de jugos</h3>
+        <p class="meta">Hogar</p>
+        <div class="space"></div>
+        <img src="Paginas/Hogar/img/producto-01.jpg" alt="Extractor de jugos SOKANY de 800 W junto a naranjas partidas." loading="lazy">
       </a>
-      <a class="category-card" href="Paginas/Tecnologia/index.html">
-        <span class="category-icon">⌘</span>
-        <h3>Tecnología</h3>
-        <span>Ver categoría →</span>
+      <a class="moment reveal" style="--i:1;--space:44px" href="Paginas/Tecnologia/index.html">
+        <h3>Proyector portátil</h3>
+        <p class="meta">Tecnología</p>
+        <div class="space"></div>
+        <img src="Paginas/Tecnologia/img/producto-06.jpg" alt="Proyector portátil blanco encendido frente a una pantalla." loading="lazy">
       </a>
-      <a class="category-card" href="Paginas/Juguetes/index.html">
-        <span class="category-icon">☆</span>
-        <h3>Juguetes</h3>
-        <span>Ver categoría →</span>
+      <a class="moment reveal" style="--i:2;--space:16px" href="Paginas/Juguetes/index.html">
+        <h3>Muñeca con accesorios</h3>
+        <p class="meta">Juguetes</p>
+        <div class="space"></div>
+        <img src="Paginas/Juguetes/img/producto-01.jpg" alt="Muñeca de vestido rosa con accesorios y mascota." loading="lazy">
       </a>
-      <a class="category-card" href="Paginas/Electrodomesticos/index.html">
-        <span class="category-icon">◉</span>
-        <h3>Electrodomésticos</h3>
-        <span>Ver categoría →</span>
+      <a class="moment reveal" style="--i:3;--space:62px" href="Paginas/Electrodomesticos/index.html">
+        <h3>Máquina de waffles</h3>
+        <p class="meta">Electrodomésticos</p>
+        <div class="space"></div>
+        <img src="Paginas/Electrodomesticos/img/producto-12.jpg" alt="Máquina de waffles roja con waffles recién hechos." loading="lazy">
       </a>
-      <a class="category-card" href="Paginas/Temporadas/index.html">
-        <span class="category-icon">✧</span>
-        <h3>Temporadas</h3>
-        <span>Ver categoría →</span>
+      <a class="moment reveal" style="--i:4;--space:28px" href="Paginas/Temporadas/index.html">
+        <h3>Casita con luz y música</h3>
+        <p class="meta">Temporadas</p>
+        <div class="space"></div>
+        <img src="Paginas/Temporadas/img/producto-08.jpg" alt="Casita navideña iluminada con figuras y música." loading="lazy">
       </a>
-      <a class="category-card category-adult" href="Paginas/Adultos/index.html">
-        <span class="category-icon">18+</span>
-        <h3>Productos para adultos</h3>
-        <span>Acceso exclusivo →</span>
+      <a class="moment reveal" style="--i:5;--space:52px" href="Paginas/Hogar/index.html">
+        <h3>Juego de té de cerámica</h3>
+        <p class="meta">Hogar</p>
+        <div class="space"></div>
+        <img src="Paginas/Hogar/img/producto-06.jpg" alt="Juego de té de cerámica con tetera y tazas sobre una mesa rosada." loading="lazy">
       </a>
     </div>
   </section>
-  <section class="section featured-section" id="destacados">
-    <div class="section-heading">
-      <span class="eyebrow">DESCUBRE NUESTRAS NOVEDADES</span>
-      <h2>Productos <em>destacados</em></h2>
-      <p>Consulta por WhatsApp los precios y la disponibilidad.</p>
-    </div>
-    <div class="product-grid">
-      <article class="product-card">
-        <div class="product-placeholder">FOTOGRAFÍA</div>
-        <div class="product-info">
-          <h3>Producto destacado 1</h3>
-          <p>Descripción y precio por confirmar.</p>
-          <a class="btn btn-outline" href="#contacto">Consultar</a>
-        </div>
-      </article>
-      <article class="product-card">
-        <div class="product-placeholder">FOTOGRAFÍA</div>
-        <div class="product-info">
-          <h3>Producto destacado 2</h3>
-          <p>Descripción y precio por confirmar.</p>
-          <a class="btn btn-outline" href="#contacto">Consultar</a>
-        </div>
-      </article>
-      <article class="product-card">
-        <div class="product-placeholder">FOTOGRAFÍA</div>
-        <div class="product-info">
-          <h3>Producto destacado 3</h3>
-          <p>Descripción y precio por confirmar.</p>
-          <a class="btn btn-outline" href="#contacto">Consultar</a>
-        </div>
-      </article>
+
+  <section class="place" id="nosotros" aria-labelledby="place-title">
+    <h2 id="place-title" class="reveal">Ocho años en Medellín</h2>
+    <p class="place-line reveal" style="--i:1">R&amp;B Store empezó como un negocio familiar de barrio y hoy es una tienda virtual con seis categorías. No tenemos vitrina: la tienda es esta página y el mostrador es el WhatsApp.</p>
+    <div class="place-grid">
+      <figure class="reveal" style="--i:0">
+        <div class="place-frame"><img src="Img/medellin/cuando-pasa-un-silletero-es-medellin-el.jpg" alt="Retrato en blanco y negro de un silletero cargado de flores." loading="lazy"><span style="--t:var(--rose)"></span></div>
+        <figcaption>Silleteros en la Feria de las Flores<span>Medellín, 2023</span></figcaption>
+      </figure>
+      <figure class="reveal" style="--i:1">
+        <div class="place-frame"><img src="Img/medellin/metro-cable-medellin.jpg" alt="Cabina del metrocable sobre la ladera de la ciudad." loading="lazy"><span style="--t:var(--gold)"></span></div>
+        <figcaption>El metrocable sobre la ladera<span>Medellín</span></figcaption>
+      </figure>
+      <figure class="reveal" style="--i:2">
+        <div class="place-frame"><img src="Img/medellin/panoramica-aerea-de-la-ciudad-de-medellin.jpg" alt="Vista aérea del valle de Medellín con el río y los edificios." loading="lazy"><span style="--t:var(--lavender)"></span></div>
+        <figcaption>El valle desde el aire<span>Medellín, 2020</span></figcaption>
+      </figure>
+      <figure class="reveal" style="--i:3">
+        <div class="place-frame"><img src="Img/medellin/medellin-robledo-2023-07-cn-02.jpg" alt="Casas escalonadas en la ladera de Robledo, con el metrocable al fondo." loading="lazy"><span style="--t:var(--cream)"></span></div>
+        <figcaption>Robledo, al noroccidente<span>Medellín, 2023</span></figcaption>
+      </figure>
     </div>
   </section>
-  <section class="about-section section" id="nosotros">
-    <div class="about-logo"><img src="Img/logo.png" alt="R&B Store Universo"></div>
-    <div class="about-copy">
-      <span class="eyebrow">UNA HISTORIA QUE SIGUE CRECIENDO</span>
-      <h2>Más que una tienda,<br><em>un universo de posibilidades.</em></h2>
-      <p>R&amp;B Store nació hace aproximadamente ocho años como un emprendimiento familiar. Con el tiempo evolucionó hasta convertirse en una tienda virtual con productos para diferentes gustos y necesidades.</p>
-      <a class="text-link" href="#contacto">Conoce nuestra tienda →</a>
+
+  <section class="close" id="contacto" aria-labelledby="close-title">
+    <div class="close-text reveal">
+      <p class="close-line" id="close-title">Escríbenos y te decimos qué hay disponible hoy.</p>
+      <a class="btn btn-solid" href="https://wa.me/573126238264" data-whatsapp>Escribir por WhatsApp</a>
+    </div>
+    <div class="close-card reveal" style="--i:1">
+      <a class="close-tel" href="https://wa.me/573126238264" data-whatsapp>312 623 8264</a>
+      <p class="close-hours">
+        <b>Lunes a sábado</b><br>9:00 a 17:00<br>Domingos no hay atención
+      </p>
     </div>
   </section>
-  <section class="benefits section">
-    <div><span>✧</span><h3>Variedad</h3><p>Diferentes categorías en un solo lugar.</p></div>
-    <div><span>♡</span><h3>Atención cercana</h3><p>Te orientamos durante tu compra.</p></div>
-    <div><span>✉</span><h3>Pedidos por WhatsApp</h3><p>Consulta disponibilidad y detalles.</p></div>
-    <div><span>➤</span><h3>Envíos</h3><p>Consulta zonas y condiciones de entrega.</p></div>
-  </section>
-  <section class="promo-banner">
-    <div>
-      <span class="eyebrow">NOVEDADES Y TEMPORADAS</span>
-      <h2>Siempre hay algo especial<br><em>esperándote.</em></h2>
-      <p>Consulta las novedades y promociones disponibles.</p>
-    </div>
-    <a class="btn btn-primary" href="Paginas/Temporadas/index.html">Ver novedades →</a>
-  </section>
+
 </main>
-<footer class="site-footer" id="contacto">
-  <div class="footer-main">
-    <a class="footer-brand" href="index.html"><img src="Img/logo.png" alt="R&B Store Universo"></a>
-    <div><h3>Explora</h3><a href="#categorias">Categorías</a><a href="#nosotros">Nosotros</a><a href="#destacados">Destacados</a></div>
-    <div><h3>Horario de atención</h3><p>Lunes a sábado<br>9:00 a. m. – 5:00 p. m.</p><p>Domingos: no hay atención.</p></div>
-    <div><h3>Contáctanos</h3><p>Escríbenos para consultar productos y realizar pedidos.</p><a class="btn btn-primary" href="#" data-whatsapp>Escribir por WhatsApp</a></div>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="ft ft-statement">
+      <p class="ft-line">Ocho años de una familia vendiendo de todo un poco.</p>
+      <p class="ft-legal">© <span data-year></span> R&amp;B Store Universo</p>
+    </div>
+    <nav class="ft ft-nav" aria-label="Pie de página">
+      <a href="index.html">Inicio</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+    </nav>
+    <div class="ft ft-place">
+      <p>Medellín, Colombia</p>
+      <p class="ft-clock" data-clock>--:--</p>
+    </div>
+    <div class="ft ft-contact">
+      <a class="ft-wa" href="https://wa.me/573126238264" data-whatsapp>312 623 8264</a>
+      <p>Lunes a sábado<br>9:00 a 17:00</p>
+    </div>
+    <div class="ft ft-word"><span>R&amp;B Store<br>Universo</span></div>
+    <a class="ft ft-invite" href="https://wa.me/573126238264" data-whatsapp>
+      <span>Escríbenos</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19L19 5M9 5h10v10" fill="none" stroke="currentColor" stroke-width="4"/></svg>
+    </a>
   </div>
-  <div class="footer-bottom"><span>© <span data-year></span> R&amp;B Store Universo. Todos los derechos reservados.</span><span>Un universo de variedades ✨</span></div>
+  <p class="credits">Fotografías de Medellín: «Cuando pasa un silletero, es Medellín el que pasa» (Mariaalejandragallego, CC0), «Metro cable Medellín» (Albeiror24, dominio público), «Panorámica aérea de la ciudad de Medellín» (Michael David Cote Torres, CC BY-SA 4.0) y «Medellín, Robledo» (Steffen Schmitz, CC BY-SA 4.0), todas vía Wikimedia Commons.</p>
 </footer>
-<a class="whatsapp-float" href="#" data-whatsapp aria-label="Contactar por WhatsApp">✆</a>
+
 </body>
 </html>
