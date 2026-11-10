@@ -32,8 +32,8 @@
 
   <section class="hero" aria-labelledby="hero-title">
     <div class="hero-top">
-      <div class="hero-lead reveal" style="--i:0">
-        <h1 id="hero-title">R&amp;B Store<br>Universo</h1>
+      <div class="hero-lead">
+        <h1 id="hero-title" class="reveal" style="--i:0">R&amp;B Store<br>Universo</h1>
         <p class="hero-line reveal" style="--i:1">Tienda familiar de variedades en Medellín, con seis categorías y un solo WhatsApp.</p>
       </div>
       <a class="btn btn-solid reveal" style="--i:2" href="https://wa.me/573126238264" data-whatsapp>Escribir por WhatsApp</a>
@@ -91,7 +91,7 @@
   </section>
 
   <section class="board-section" aria-labelledby="board-title">
-    <div class="board" data-board>
+    <div class="board reveal" data-board>
       <div class="t t-fill t-head">
         <h2 id="board-title">Seis mundos</h2>
         <a href="#categorias">Ver las categorías →</a>
@@ -172,11 +172,11 @@
 
   <section class="row-section" id="catalogo" aria-labelledby="row-title">
     <div class="row-head">
-      <div class="reveal" style="--i:0">
-        <h2 id="row-title">Lo que hay ahora</h2>
-        <p>Una muestra del catálogo. Los precios y la disponibilidad se confirman por WhatsApp antes de cualquier pago.</p>
+      <div>
+        <h2 id="row-title" class="reveal" style="--i:0">Lo que hay ahora</h2>
+        <p class="reveal" style="--i:1">Una muestra del catálogo. Los precios y la disponibilidad se confirman por WhatsApp antes de cualquier pago.</p>
       </div>
-      <div class="row-buttons">
+      <div class="row-buttons reveal" style="--i:2">
         <button class="row-btn" type="button" data-row-prev aria-label="Ver productos anteriores">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2"/></svg>
         </button>
@@ -230,19 +230,19 @@
     <h2 id="place-title" class="reveal">Ocho años en Medellín</h2>
     <p class="place-line reveal" style="--i:1">R&amp;B Store empezó como un negocio familiar de barrio y hoy es una tienda virtual con seis categorías. No tenemos vitrina: la tienda es esta página y el mostrador es el WhatsApp.</p>
     <div class="place-grid">
-      <figure class="reveal" style="--i:0">
+      <figure class="reveal" style="--i:1">
         <div class="place-frame"><img src="Img/medellin/cuando-pasa-un-silletero-es-medellin-el.jpg" alt="Retrato en blanco y negro de un silletero cargado de flores." loading="lazy"><span style="--t:var(--rose)"></span></div>
         <figcaption>Silleteros en la Feria de las Flores<span>Medellín, 2023</span></figcaption>
       </figure>
-      <figure class="reveal" style="--i:1">
+      <figure class="reveal" style="--i:2">
         <div class="place-frame"><img src="Img/medellin/metro-cable-medellin.jpg" alt="Cabina del metrocable sobre la ladera de la ciudad." loading="lazy"><span style="--t:var(--gold)"></span></div>
         <figcaption>El metrocable sobre la ladera<span>Medellín</span></figcaption>
       </figure>
-      <figure class="reveal" style="--i:2">
+      <figure class="reveal" style="--i:3">
         <div class="place-frame"><img src="Img/medellin/panoramica-aerea-de-la-ciudad-de-medellin.jpg" alt="Vista aérea del valle de Medellín con el río y los edificios." loading="lazy"><span style="--t:var(--lavender)"></span></div>
         <figcaption>El valle desde el aire<span>Medellín, 2020</span></figcaption>
       </figure>
-      <figure class="reveal" style="--i:3">
+      <figure class="reveal" style="--i:4">
         <div class="place-frame"><img src="Img/medellin/medellin-robledo-2023-07-cn-02.jpg" alt="Casas escalonadas en la ladera de Robledo, con el metrocable al fondo." loading="lazy"><span style="--t:var(--cream)"></span></div>
         <figcaption>Robledo, al noroccidente<span>Medellín, 2023</span></figcaption>
       </figure>
@@ -250,11 +250,11 @@
   </section>
 
   <section class="close" id="contacto" aria-labelledby="close-title">
-    <div class="close-text reveal">
-      <p class="close-line" id="close-title">Escríbenos y te decimos qué hay disponible hoy.</p>
-      <a class="btn btn-solid" href="https://wa.me/573126238264" data-whatsapp>Escribir por WhatsApp</a>
+    <div class="close-text">
+      <p class="close-line reveal" style="--i:0" id="close-title">Escríbenos y te decimos qué hay disponible hoy.</p>
+      <a class="btn btn-solid reveal" style="--i:1" href="https://wa.me/573126238264" data-whatsapp>Escribir por WhatsApp</a>
     </div>
-    <div class="close-card reveal" style="--i:1">
+    <div class="close-card reveal" style="--i:2">
       <a class="close-tel" href="https://wa.me/573126238264" data-whatsapp>312 623 8264</a>
       <p class="close-hours">
         <b>Lunes a sábado</b><br>9:00 a 17:00<br>Domingos no hay atención
@@ -266,26 +266,26 @@
 
 <footer class="site-footer">
   <div class="footer-grid">
-    <div class="ft ft-statement">
+    <div class="ft ft-statement reveal" style="--i:0">
       <p class="ft-line">Ocho años de una familia vendiendo de todo un poco.</p>
       <p class="ft-legal">© <span data-year></span> R&amp;B Store Universo</p>
     </div>
-    <nav class="ft ft-nav" aria-label="Pie de página">
+    <nav class="ft ft-nav reveal" style="--i:1" aria-label="Pie de página">
       <a href="index.html">Inicio</a>
       <a href="#categorias">Categorías</a>
       <a href="#catalogo">Catálogo</a>
       <a href="#nosotros">Nosotros</a>
     </nav>
-    <div class="ft ft-place">
+    <div class="ft ft-place reveal" style="--i:2">
       <p>Medellín, Colombia</p>
       <p class="ft-clock" data-clock>--:--</p>
     </div>
-    <div class="ft ft-contact">
+    <div class="ft ft-contact reveal" style="--i:3">
       <a class="ft-wa" href="https://wa.me/573126238264" data-whatsapp>312 623 8264</a>
       <p>Lunes a sábado<br>9:00 a 17:00</p>
     </div>
-    <div class="ft ft-word"><span>R&amp;B Store<br>Universo</span></div>
-    <a class="ft ft-invite" href="https://wa.me/573126238264" data-whatsapp>
+    <div class="ft ft-word reveal" style="--i:4"><span>R&amp;B Store<br>Universo</span></div>
+    <a class="ft ft-invite reveal" style="--i:5" href="https://wa.me/573126238264" data-whatsapp>
       <span>Escríbenos</span>
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 19L19 5M9 5h10v10" fill="none" stroke="currentColor" stroke-width="4"/></svg>
     </a>

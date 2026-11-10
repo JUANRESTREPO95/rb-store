@@ -371,6 +371,7 @@ body.has-picks{padding-bottom:76px}
 
 /* ---------- Pantallas medianas ---------- */
 @media(max-width:1000px){
+  .hero{min-height:0}
   .t-head h2,.t-fact{font-size:var(--step-small)}
   .t-head a{display:none}
   .cats{grid-template-columns:1fr;gap:36px}
